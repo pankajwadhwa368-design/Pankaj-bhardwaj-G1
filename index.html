@@ -1,109 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Meta Pixel Code -->
-    <script>
-!function(f,b,e,v,n,t,s)
+<!DOCTYPE html>  <html lang="en">
+<head>
+  <!-- Meta Pixel Code -->
+  <script>!function(f,b,e,v,n,t,s)
+
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
 n.queue=[];t=b.createElement(e);t.async=!0;
+
 t.src=v;s=b.getElementsByTagName(e)[0];
+
 s.parentNode.insertBefore(t,s)}(window, document,'script',
+
 'https://connect.facebook.net/en_US/fbevents.js');
+
 fbq('init', '1011384001671802');
+
 fbq('track', 'PageView');
+
 </script>
-    <noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1011384001671802&ev=PageView&noscript=1"/>
-</noscript>
-      <!-- End Meta Pixel Code -->
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Join Telegram Channel</title>
-      <script src="https://cdn.tailwindcss.com"></script>
-      <style>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1011384001671802&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Telegram Channel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>body {
 
+font-family: 'Poppins', sans-serif;
 
 
-  body {
 
 
 
-    font-family: 'Poppins', sans-serif;
 
 
+min-height: 100vh;
 
-    min-height: 100vh;
 
 
 
-    margin: 0;
 
 
 
-    display: flex;
+margin: 0;
 
 
 
-    align-items: center;
 
 
 
-    justify-content: center;
 
+display: flex;
 
 
-    padding: 1rem;
 
 
 
-    overflow: hidden;
 
 
+align-items: center;
 
-  }
 
 
 
 
 
 
+justify-content: center;
 
-  /* VIDEO BACKGROUND */
 
 
 
-  .video-bg {
 
 
 
-    position: fixed;
+padding: 1rem;
 
 
 
-    inset: 0;
 
 
 
-    width: 100%;
 
+overflow: hidden;
 
+}
 
-    height: 100%;
+/* VIDEO BACKGROUND */
 
+.video-bg {
 
+position: fixed;
 
-    object-fit: cover;
 
 
 
-    z-index: -2;
 
 
 
-  }
+inset: 0;
 
 
 
@@ -111,175 +113,163 @@ src="https://www.facebook.com/tr?id=1011384001671802&ev=PageView&noscript=1"/>
 
 
 
-  /* OVERLAY */
+width: 100%;
 
 
 
-  .overlay {
 
 
 
-    position: fixed;
 
+height: 100%;
 
 
-    inset: 0;
 
 
 
-    background: rgba(2,6,23,0.75);
 
 
+object-fit: cover;
 
-    z-index: -1;
 
 
 
-  }
 
 
 
+z-index: -2;
 
+}
 
+/* OVERLAY */
 
+.overlay {
 
-  .glass-card {
+position: fixed;
 
 
 
-    background: rgba(255, 255, 255, 0.08);
 
 
 
-    backdrop-filter: blur(18px);
 
+inset: 0;
 
 
-    border: 1px solid rgba(255,255,255,0.15);
 
 
 
-    border-radius: 24px;
 
 
+background: rgba(2,6,23,0.75);
 
-    max-width: 420px;
 
 
 
-    width: 100%;
 
 
 
-    padding: 2rem 1.8rem;
+z-index: -1;
 
+}
 
+.glass-card {
 
-    text-align: center;
+background: rgba(255, 255, 255, 0.08);
 
 
 
-    box-shadow: 0 25px 60px rgba(0,0,0,0.4);
 
 
 
-  }
 
+backdrop-filter: blur(18px);
 
 
 
 
 
 
-  .profile-img {
 
+border: 1px solid rgba(255,255,255,0.15);
 
 
-    width: 130px;
 
 
 
-    height: 130px;
 
 
+border-radius: 24px;
 
-    border-radius: 50%;
 
 
 
-    border: 4px solid rgba(255,255,255,0.6);
 
 
 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+max-width: 420px;
 
 
 
-    margin: auto;
 
 
 
-  }
 
+width: 100%;
 
 
 
 
 
 
-  .btn-telegram {
 
+padding: 2rem 1.8rem;
 
 
-    display: flex;
 
 
 
-    align-items: center;
 
 
+text-align: center;
 
-    justify-content: center;
 
 
 
-    gap: 10px;
 
 
 
-    padding: 14px;
+box-shadow: 0 25px 60px rgba(0,0,0,0.4);
 
+}
 
+.profile-img {
 
-    border-radius: 16px;
+width: 130px;
 
 
 
-    font-weight: 700;
 
 
 
-    font-size: 1.05rem;
 
+height: 130px;
 
 
-    color: #fff;
 
 
 
-    background: linear-gradient(135deg, #0088cc, #22d3ee);
 
 
+border-radius: 50%;
 
-    transition: all 0.3s ease;
 
 
 
-    box-shadow: 0 10px 30px rgba(0,136,204,0.5);
 
 
 
-  }
+border: 4px solid rgba(255,255,255,0.6);
 
 
 
@@ -287,148 +277,290 @@ src="https://www.facebook.com/tr?id=1011384001671802&ev=PageView&noscript=1"/>
 
 
 
-  .btn-telegram:hover {
+box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 
 
 
-    transform: translateY(-3px) scale(1.02);
 
 
 
-    box-shadow: 0 18px 45px rgba(0,136,204,0.7);
 
+margin: auto;
 
+}
 
-  }
+.btn-telegram {
 
+display: flex;
 
 
 
 
 
 
-  .badge {
 
+align-items: center;
 
 
-    background: linear-gradient(135deg, #dc2626, #f97316);
 
 
 
-    color: white;
 
 
+justify-content: center;
 
-    padding: 6px 14px;
 
 
 
-    border-radius: 999px;
 
 
 
-    font-size: 0.85rem;
+gap: 10px;
 
 
 
-    font-weight: 600;
 
 
 
-    display: inline-block;
 
+padding: 14px;
 
 
-  }
 
 
 
 
 
+border-radius: 16px;
 
 
-  .feature {
 
 
 
-    display: flex;
 
 
+font-weight: 700;
 
-    gap: 10px;
 
 
 
-    align-items: flex-start;
 
 
 
-    font-size: 0.95rem;
+font-size: 1.05rem;
 
 
 
-    color: #e5e7eb;
 
 
 
-  }
 
+color: #fff;
 
+
+
+
+
+
+
+background: linear-gradient(135deg, #0088cc, #22d3ee);
+
+
+
+
+
+
+
+transition: all 0.3s ease;
+
+
+
+
+
+
+
+box-shadow: 0 10px 30px rgba(0,136,204,0.5);
+
+}
+
+.btn-telegram:hover {
+
+transform: translateY(-3px) scale(1.02);
+
+
+
+
+
+
+
+box-shadow: 0 18px 45px rgba(0,136,204,0.7);
+
+}
+
+.badge {
+
+background: linear-gradient(135deg, #dc2626, #f97316);
+
+
+
+
+
+
+
+color: white;
+
+
+
+
+
+
+
+padding: 6px 14px;
+
+
+
+
+
+
+
+border-radius: 999px;
+
+
+
+
+
+
+
+font-size: 0.85rem;
+
+
+
+
+
+
+
+font-weight: 600;
+
+
+
+
+
+
+
+display: inline-block;
+
+}
+
+.feature {
+
+display: flex;
+
+
+
+
+
+
+
+gap: 10px;
+
+
+
+
+
+
+
+align-items: flex-start;
+
+
+
+
+
+
+
+font-size: 0.95rem;
+
+
+
+
+
+
+
+color: #e5e7eb;
+
+}
 
 </style>
-    </head>
-    <body>
-      <!-- MIXKIT VIDEO BACKGROUND -->
-      <video class="video-bg" autoplay muted loop playsinline>
-        <source src="https://assets.mixkit.co/videos/9607/9607-720.mp4" type="video/mp4">
-        </video>
-        <div class="overlay">
-        </div>
-        <div class="glass-card">
-          <img
-            src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/08/pankaj-image-2.jpg"
-            alt="Profile"
-            class="profile-img mb-4"
-            />
-            <h1 class="text-xl font-extrabold text-white leading-snug">
-              PANKAJ BHARDWAJ OFFICIAL
-            </h1>
-            <p class="text-sm text-cyan-300 font-semibold mb-3">
-              (SEBI REGISTER) 💸🏆
-            </p>
-            <span class="badge mb-5 inline-block">
-              📊 17 Years Trading Experience
-            </span>
-            <h1>👇👇👇</h1>
-            <a href="https://telegram.me/+zt6XIAwESF5jY2Nl"
-   target="_blank"
-   class="btn-telegram my-6"
-   onclick="fbq('track','Lead'); fbq('trackCustom','Subscribe');">
-   JOIN TELEGRAM CHANNEL
-            </a>
-            <h2 class="text-lg font-bold text-white mb-1">
-              क्या आप ट्रेडिंग से पैसे कमाना चाहते हैं?
-            </h2>
-            <p class="text-red-400 font-semibold">
-              अगर हां, तो ऊपर दिए गए Telegram बटन पर क्लिक करें 🚀
-            </p>
-            <p class="text-yellow-400 font-bold mb-4">
-              💎 DAILY PROFIT GUARANTEE 💎
-            </p>
-            <div class="space-y-3 text-left mb-6">
-              <div class="feature">📊 <span>
-                <b>Live Daily Trades</b> directly from my portfolio</span>
-              </div>
-              <div class="feature">🔥 <span>
-                <b>Exclusive Signals</b> used by professionals</span>
-              </div>
-              <div class="feature">💯 <span>
-                <b>High Accuracy</b> with proven consistency</span>
-              </div>
-              <div class="feature">⚡ <span>
-                <b>Instant Updates</b> with real-time alerts</span>
-              </div>
+  </head>
+  <body>
+    <!-- MIXKIT VIDEO BACKGROUND -->
+    <video class="video-bg" autoplay muted loop playsinline>
+      <source src="https://assets.mixkit.co/videos/9607/9607-720.mp4" type="video/mp4">
+      </video>
+      <div class="overlay">
+      </div>
+      <div class="glass-card">
+        <img
+          src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/08/pankaj-image-2.jpg"
+          alt="Profile"
+          class="profile-img mb-4"
+          />
+          <h1 class="text-xl font-extrabold text-white leading-snug">
+            PANKAJ BHARDWAJ OFFICIAL
+          </h1>
+          <p class="text-sm text-cyan-300 font-semibold mb-3">
+            (SEBI REGISTER) 💸🏆
+          </p>
+          <span class="badge mb-5 inline-block">
+            📊 17 Years Trading Experience
+          </span>
+          <h1>👇👇👇</h1>
+          <a href="javascript:void(0)"
+            class="btn-telegram my-6"
+            onclick="telegramClick();setTimeout(function(){window.open('https://telegram.me/+zt6XIAwESF5jY2Nl','_blank');},300);">
+            JOIN TELEGRAM CHANNEL
+          </a>
+          <h2 class="text-lg font-bold text-white mb-1">
+            क्या आप ट्रेडिंग से पैसे कमाना चाहते हैं?
+          </h2>
+          <p class="text-red-400 font-semibold">
+            अगर हां, तो ऊपर दिए गए Telegram बटन पर क्लिक करें 🚀
+          </p>
+          <p class="text-yellow-400 font-bold mb-4">
+            💎 DAILY PROFIT GUARANTEE 💎
+          </p>
+          <div class="space-y-3 text-left mb-6">
+            <div class="feature">📊 <span>
+              <b>Live Daily Trades</b> directly from my portfolio</span>
+            </div>
+            <div class="feature">🔥 <span>
+              <b>Exclusive Signals</b> used by professionals</span>
+            </div>
+            <div class="feature">💯 <span>
+              <b>High Accuracy</b> with proven consistency</span>
+            </div>
+            <div class="feature">⚡ <span>
+              <b>Instant Updates</b> with real-time alerts</span>
             </div>
           </div>
-        </body>
-      </html>
+</div>
+
+<script>
+function telegramClick() {
+  fbq('track', 'Lead', {
+    content_name: 'Telegram Channel Join',
+    content_category: 'Stock Market',
+    source: 'Landing Page',
+    button_name: 'Join Telegram',
+    value: 9.99,
+    currency: 'INR'
+  });
+
+  fbq('track', 'Subscribe', {
+    content_name: 'Telegram Subscription',
+    value: 9.99,
+    currency: 'INR'
+  });
+}
+</script>
+      </body>
+</html>
